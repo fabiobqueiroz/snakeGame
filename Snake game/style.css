@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header */
+
+
+header{
+    
+    background-color: #555;
+    width: 100vw;
+    height: 8vh;
+
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    padding: 2vh 0;
+    font-size: 25px;
+}
+
+
+/* options */
+
+
+.options{
+    position: absolute;
+    left: 44vw;
+    top: 40vh;
+}
+.options-article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pause, .begin_game, .play_again{
+    background-color: rgb(0, 47, 117);
+    color: #fff;
+    width: 15vw;
+    height: 9vh;
+}
+.pause, .game_over, .counter{
+    display: none;
+}
+
+
+/* counter */
+
+
+.contador_section{
+    position: absolute;
+    top:11vh;
+    left: 4vw;
+}
+.score, .contador{
+    display: inline;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.fild_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 84vh;
+
+}
+.fild{
+    background-color: #ccc;
+}
+
+
+/* footer */
+
+
+footer{
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 8vh;
+    background-color: #555;
+}
+.copyright{
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    padding: 2vh;
+}
